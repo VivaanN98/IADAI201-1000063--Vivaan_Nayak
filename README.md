@@ -35,8 +35,14 @@ In the final step, we load the trained model and use it to make predictions on n
 predicted_label = np.argmax(prediction) label_text = label_map[predicted_label] cv2.putText(image, f"Pose: {label_text}", (10, 40), ...)
 
 
-![image](https://github.com/user-attachments/assets/c1aa5aa8-8a2b-48ab-a095-4332ce540804)
+Output:
+A new window comes out and shows the output. The new window which was open or which was the testing runs can be closeed by pressing the Q button to stop the video. In summary, after setting up the environment and downloading the necessary videos, I created a dataset of pose landmarks from different gestures. Then, I trained a neural network model, tested it on unseen video data, and achieved 100% accuracy in recognizing the gestures.
 
+For Climb: -
+![image](https://github.com/user-attachments/assets/d9b97e58-eb54-41ca-851f-7b3e92f00011)
 
-Terminating the program:
-A new window comes out and shows the output. The new window which was open or which was the testing runs can be closeed by pressing the Q button to stop the video. In summary, after setting up the environment and downloading the necessary videos, I created a dataset of pose landmarks from different gestures. Then, I trained a neural network model, tested it on unseen video data, and achieved 100% accuracy in recognizing the gestures. The project is completed by simply pressing Q to terminate the video display.
+For Kick: -
+![image](https://github.com/user-attachments/assets/60b92597-f75a-467c-805d-0ba77458103d)
+
+Terminating the output window:
+The output window can be terminated by simply pressing Q.
