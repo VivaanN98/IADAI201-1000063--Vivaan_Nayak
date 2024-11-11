@@ -1,6 +1,6 @@
 So, I started by conducting research on how to approach the task. After gaining a solid understanding, I wrote my Python code using Visual Studio Code (VS Code). I installed the required extensions for Jupyter Notebook and Python in VS Code and then used the command prompt to download essential Python libraries such as numpy, pandas, opencv-python, tensorflow, and keras.
 
-Next, I downloaded 12 videos from YouTube, representing 3 different gestures: clap, walk, and run (4 videos per gesture: 3 for training and 1 for testing). After downloading the videos, I converted them into AVI format for easy processing. From these videos, I created my dataset, normalized it, split the data for training and testing, trained the model, and finally tested it with an accuracy of 100%.
+Next, I downloaded 12 videos from YouTube, representing 3 different gestures: climb, kick, and dance (4 videos per gesture: 3 for training and 1 for testing). After downloading the videos, I converted them into AVI format for easy processing. Then, I created my dataset, normalized it, split the data for training and testing, trained the model, and finally tested it with an accuracy of 100%.
 
 Here's how the code works:
 
