@@ -52,3 +52,12 @@ This model can be used in various fields such as fitness, healthcare, security a
 
 
 This is the link to the github repositary: https://github.com/VivaanN98/IADAI201-1000064-Vivaan_Nayak
+
+
+
+
+
+Here is the confusion matrix and f1 score:
+
+![image](https://github.com/user-attachments/assets/56dd742b-008a-400e-9467-5b1a49888b2e)
+
